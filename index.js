@@ -37616,7 +37616,7 @@ class rM {
 const oM = [
     {
       id: 0,
-      name: "Premium Package",
+      name: "Premium Package (₦400,000)",
       description: "Complete wedding experience with couple interview, after-party hyping, blog repost, and full event hosting",
       image: "images/projects/theiqic.jpeg",
       tags: ["wedding", "interview", "afterparty", "blog"],
@@ -37626,7 +37626,7 @@ const oM = [
     },
     {
       id: 1,
-      name: "Golden Package",
+      name: "Golden Package (₦300,000)",
       description: "Comprehensive wedding hosting with after-party hyping, blog repost, and full event coverage",
       image: "images/projects/krushigram.png",
       tags: ["wedding", "afterparty", "blog", "hosting"],
@@ -37636,7 +37636,7 @@ const oM = [
     },
     {
       id: 2,
-      name: "Silver Package",
+      name: "Silver Package (₦250,000)",
       description: "Professional wedding hosting service to make your special day memorable and smoothly run",
       image: "images/projects/vaporui.jpeg",
       tags: ["wedding", "hosting", "professional"],
@@ -37646,7 +37646,7 @@ const oM = [
     },
     {
       id: 3,
-      name: "Corporate & Birthday Events",
+      name: "Corporate & Birthday Events (₦200,000)",
       description: "Professional hosting for corporate events, birthdays, ceremonies, and private gatherings with energy and elegance",
       image: "images/projects/studybuddy.jpeg",
       tags: ["corporate", "birthday", "ceremonies", "private"],
@@ -37762,7 +37762,7 @@ class lM {
         // Render only the "Live View" button if a live view link is present
         t = `
             <div id="work-item-orange-button-${e.id}" class="work-item-orange-button small-button center orange-hover" style="width: 100%; margin: 0;">
-                Live View
+                Availabe
             </div>
         `;
     } else if (e.twitter) {
@@ -37779,7 +37779,7 @@ class lM {
         // Render a "Work in progress" button if no liveview or Twitter link is present
         t = `
             <div id="work-item-gray-button-${e.id}" class="work-item-gray-button center" style="width: 100%; background: #a7adb8; cursor: unset;">
-                Work in progress
+                Unavailable
             </div>
         `;
     }
