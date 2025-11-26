@@ -37871,24 +37871,24 @@ class lM {
 }
 const cM = [
   {
-    name: "web development",
+    name: "public speaking",
+    width: "95%",
+  },
+  {
+    name: "event planning",
+    width: "85%",
+  },
+  {
+    name: "content creation",
     width: "90%",
   },
   {
-    name: "app devlopment",
-    width: "55%",
-  },
-  {
-    name: "graphic design",
-    width: "90%",
-  },
-  {
-    name: "frontend",
+    name: "voiceover",
     width: "80%",
   },
   {
-    name: "backend",
-    width: "75%",
+    name: "comedy & performance",
+    width: "88%",
   },
 ];
 class hM {
