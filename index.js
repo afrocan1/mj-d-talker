@@ -37616,73 +37616,56 @@ class rM {
 const oM = [
     {
       id: 0,
-      name: "the iqic",
-      description: "Delivered a professional freelance project for a quality inspection company, creating a comprehensive business website",
+      name: "Premium Package",
+      description: "Complete wedding experience with couple interview, after-party hyping, blog repost, and full event hosting",
       image: "images/projects/theiqic.jpeg",
-      tags: ["javascript", "html", "css", "freelance"],
-      liveview: "https://theiqic.com/",
-      // github: "https://github.com/satvik9373/coffee-website-.git",
-      alt: "Coffee Shop Website",
+      tags: ["wedding", "interview", "afterparty", "blog"],
+      liveview: "",
+      alt: "Premium Wedding Package",
+      price: "₦400,000"
     },
     {
       id: 1,
-      name: "venchers campaign",
-      description: "a block-based photo sharing system inspired by the historic Million Dollar Homepage concept",
+      name: "Golden Package",
+      description: "Comprehensive wedding hosting with after-party hyping, blog repost, and full event coverage",
       image: "images/projects/krushigram.png",
-      tags: ["react", "express", "multer", "googleAuth","Cloudinery"],
-      liveview: "https://venchers-campaign.vercel.app/",
-      alt: "venchers campaign",
+      tags: ["wedding", "afterparty", "blog", "hosting"],
+      liveview: "",
+      alt: "Golden Wedding Package",
+      price: "₦300,000"
     },
     {
       id: 2,
-      name: "vapor ui",
-      description: "UI component library featuring 20+ reusable components, text animations, background animations, loading page elements, and interactive UI element ",
+      name: "Silver Package",
+      description: "Professional wedding hosting service to make your special day memorable and smoothly run",
       image: "images/projects/vaporui.jpeg",
-      tags: ["javascript", "react", "ui","framer"],
-      liveview: "https://vapor-ui.vercel.app/",
-      // github: "https://github.com/satvik9373/yoga-class.git",
-      alt: "Fitness Institute",
+      tags: ["wedding", "hosting", "professional"],
+      liveview: "",
+      alt: "Silver Wedding Package",
+      price: "₦250,000"
     },
     {
       id: 3,
-      name: "Quick Labs",
-      description: "Quick labs is an LMS developed for teaching assistants at my university to provide lab solutions, manage materials, and support students.",
+      name: "Corporate & Birthday Events",
+      description: "Professional hosting for corporate events, birthdays, ceremonies, and private gatherings with energy and elegance",
       image: "images/projects/studybuddy.jpeg",
-      tags: ["javascript", "react", "mongodb", ""],
-      liveview: "http://quicklabs.fun/",
-      // github: "https://github.com/satvik9373/Think-Beyond-Marketing",
-      alt: "Digital Marketing Agency",
-    },
-    {
-      id: 4,
-      name: "Open Talk",
-      description: "Open Talk is a platform where people can share their achievements and hacks, allowing others to like or dislike them without needing an account.",
-      image: "images/projects/opentalk.jpeg",
-      tags: ["react", "mongodb", "express"],
-      liveview: "https://opentalk1.netlify.app/",
-      // github: "https://github.com/satvik9373/lms-websitee",
-      alt: "Affiliate Marketing and earning Website",
-    },
+      tags: ["corporate", "birthday", "ceremonies", "private"],
+      liveview: "",
+      alt: "Corporate and Birthday Events",
+      price: "₦200,000"
+    }
   ],
   aM = {
-    html: '<div class="work-item-tag" style="background: white; border: 1px solid #7C8594; color: #7C8594">HTML</div>',
-    css: '<div class="work-item-tag" style="background: white; border: 1px solid #7C8594; color: #7C8594">CSS</div>',
-    javascript:
-      '<div class="work-item-tag" style="background: #FFB800;">JavaScript</div>',
-    react:
-      '<div class="work-item-tag" style="background: #21BAEB;">React js</div>',
-    mongodb:'<div class="work-item-tag" style="background: #4fe461;">MongoDB</div>',
-    googleAuth:'<div class="work-item-tag" style="background: #4fe461;">Google Auth</div>',
-    express:
-      '<div class="work-item-tag" style="background: #333;">Express</div>',
-    multer:
-      '<div class="work-item-tag" style="background:rgb(187, 93, 93);">Multer</div>',
-      Cloudinery: '<div class="work-item-tag" style="background:rgb(73, 143, 248);">Cloudinery</div>',
-      freelance: '<div class="work-item-tag" style="background:rgb(73, 143, 248);">Freelancs</div>',
-    ui: '<div class="work-item-tag" style="background: #CA49F8;">UI Design</div>',
-    tailwind: '<div class="work-item-tag" style="background:rgb(234, 248, 73);">Tailwind</div>',
-    game: '<div class="work-item-tag" style="background: #e86ef0;">Game</div>',
-    framer: '<div class="work-item-tag" style="background: #e86ef0;">Framer</div>',
+    wedding: '<div class="work-item-tag" style="background: #FF6B9D;">Wedding</div>',
+    interview: '<div class="work-item-tag" style="background: #FFB800;">Couple Interview</div>',
+    afterparty: '<div class="work-item-tag" style="background: #21BAEB;">After-Party</div>',
+    blog: '<div class="work-item-tag" style="background: #4fe461;">Blog Repost</div>',
+    hosting: '<div class="work-item-tag" style="background: #CA49F8;">Full Hosting</div>',
+    professional: '<div class="work-item-tag" style="background: #333; color: white;">Professional</div>',
+    corporate: '<div class="work-item-tag" style="background: #e86ef0;">Corporate</div>',
+    birthday: '<div class="work-item-tag" style="background: #FFB800;">Birthday</div>',
+    ceremonies: '<div class="work-item-tag" style="background: #73f8e8;">Ceremonies</div>',
+    private: '<div class="work-item-tag" style="background: #f87373;">Private Events</div>'
   };
 class lM {
   constructor() {
