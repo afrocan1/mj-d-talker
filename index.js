@@ -39263,19 +39263,16 @@ class yM {
     e.input.value.length >= 10 ? this.sendMail() : this.showError(e);
   }
   async sendMail() {
-    this.showContainer("loading");
-    const e = await fetch("/api/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        name: this.fields[0].input.value,
-        email: this.fields[1].input.value,
-        message: this.fields[2].input.value,
-      }),
-    });
-    this.showResult(e);
+  const name = this.fields[0].input.value;
+  const email = this.fields[1].input.value;
+  const message = this.fields[2].input.value;
+  
+  const mailtoLink = `mailto:mcmjdtalker@gmail.com?subject=Contact from ${name}&body=${encodeURIComponent(message)}%0D%0A%0D%0AFrom: ${email}`;
+  
+  window.location.href = mailtoLink;
+  
+  // Show success message
+  this.showResult({ status: 200 });
   }
   hideAllContainers() {
     this.domElements.formContainer.classList.add("hide"),
