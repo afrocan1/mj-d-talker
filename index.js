@@ -37620,7 +37620,7 @@ const oM = [
       description: "Complete wedding experience with couple interview, after-party hyping, blog repost, and full event hosting",
       image: "images/projects/mj1.jpeg",
       tags: ["wedding", "interview", "afterparty", "blog"],
-      liveview: "",
+      liveview: "https://wa.me/2349124422104",
       alt: "Premium Wedding Package",
       price: "₦400,000"
     },
@@ -37630,7 +37630,7 @@ const oM = [
       description: "Comprehensive wedding hosting with after-party hyping, blog repost, and full event coverage",
       image: "images/projects/mj3.jpeg",
       tags: ["wedding", "afterparty", "blog", "hosting"],
-      liveview: "",
+      liveview: "https://wa.me/2349124422104",
       alt: "Golden Wedding Package",
       price: "₦300,000"
     },
@@ -37640,7 +37640,7 @@ const oM = [
       description: "Professional wedding hosting service to make your special day memorable and smoothly run",
       image: "images/projects/mj4.jpeg",
       tags: ["wedding", "hosting", "professional"],
-      liveview: "",
+      liveview: "https://wa.me/2349124422104",
       alt: "Silver Wedding Package",
       price: "₦250,000"
     },
@@ -37650,7 +37650,7 @@ const oM = [
       description: "Professional hosting for corporate events, birthdays, ceremonies, and private gatherings with energy and elegance",
       image: "images/projects/mj5.jpeg",
       tags: ["corporate", "birthday", "ceremonies", "private"],
-      liveview: "",
+      liveview: "https://wa.me/2349124422104",
       alt: "Corporate and Birthday Events",
       price: "₦200,000"
     }
